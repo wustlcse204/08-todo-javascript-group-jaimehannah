@@ -1,0 +1,71 @@
+body{
+    font-family:monospace;
+}
+
+.addTaskHeader{
+    width: 100%;
+}
+#headerText{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.submitText{
+    text-align: center;
+}
+#addTextBox{
+    width: 60%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+
+#addTextBox:focus{
+    outline: none;
+}
+
+#addTextBox::placeholder{
+    text-align: center;
+    color: gray
+}
+
+#addSubmit{
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 12px;
+}
+#addSubmit:hover{
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.taskDiv{
+    display: flex;
+    border: gray solid 1px;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.deleteButtons{
+    margin-left: auto;
+}
+
+.taskText{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.deleteTask{
+    color: black;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 5px 10px ;
+}
+
+.deleteTask:hover{
+    color: red;
+    border: solid 1px red;
+}
